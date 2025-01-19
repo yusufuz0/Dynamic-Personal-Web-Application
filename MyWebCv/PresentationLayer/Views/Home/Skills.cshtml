@@ -1,0 +1,12 @@
+﻿@model List<DataAccesLayer.Entities.Skills>
+
+    <div class="skills">
+        <ul>
+            @{
+                foreach (var item in Model)
+                {
+                    <li>@item.Skill</li>
+                }
+            }
+        </ul>
+    </div>

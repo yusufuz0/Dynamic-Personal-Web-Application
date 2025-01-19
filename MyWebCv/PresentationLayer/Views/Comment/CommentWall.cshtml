@@ -1,0 +1,19 @@
+﻿@model List<DataAccesLayer.Entities.Comments>
+
+
+    <ul class="comment-list">
+        @{
+            foreach (var item in Model)
+            {
+            <p>@item.Context - <strong>@item.Username</strong>(<small>@item.CreatedDate</small>)</p>
+            }
+        }
+    </ul>
+
+    @{
+        if (Context.User.Claims.FirstOrDefault(f => f.Type == "FirstName") != null)
+        {
+            <a href="/Comment/NewComment"><button class="add-comment-btn">Add Comment</button></a>
+        }
+    }
+

@@ -1,0 +1,17 @@
+﻿
+@{
+    var UserId = @Context.User.Claims.FirstOrDefault(f => f.Type == "Id").Value;
+    var Username = @Context.User.Claims.FirstOrDefault(f => f.Type == "FirstName").Value;
+
+
+}
+
+<form action="/Comment/NewComment" method="post">
+    <label for="Context">Comment:</label>
+    <input id="Context" name="Context" type="text" />
+
+    <input type="hidden" id="UserId" name="UserId" value="@UserId" />
+    <input type="hidden" id="Username" name="Username" value="@Username" />
+
+    <button type="submit">Add Comment</button>
+</form>

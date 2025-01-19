@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+            .navbar ul li a {
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 20px;
+                transition: background 0.3s;
+            }
+
+                .navbar ul li a:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                    border-radius: 5px;
+                }
+
+.hero {
+    margin-top: 80px; /* Adjust according to header height */
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 4em;
+        margin-bottom: 20px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+
+.content {
+    margin-top: 100px; /* Adjust according to header height */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .content p {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+
+.projects {
+    margin-top: 100px; /* Adjust according to header height */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .projects ul {
+        list-style: none;
+        width: 100%;
+    }
+
+        .projects ul li {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+
+            .projects ul li:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+
+.skills {
+    margin-top: 100px; /* Adjust according to header height */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .skills ul {
+        list-style: none;
+        width: 100%;
+    }
+
+        .skills ul li {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+
+            .skills ul li:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+
+.contact-info {
+    margin-top: 100px; /* Adjust according to header height */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .contact-info p {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 1.2em;
+        transition: background 0.3s;
+    }
+
+        .contact-info p:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+.comment-list {
+    margin-top: 100px; /* Adjust according to header height */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .comment-list p {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+        width: 100%;
+        text-align: left;
+        font-size: 1.2em;
+        transition: background 0.3s;
+    }
+
+        .comment-list p:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+.add-comment-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .add-comment-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form input {
+        margin-bottom: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    form button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #ff7e5f;
+        color: #fff;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        form button:hover {
+            background: #feb47b;
+        }
+
+.welcome-message {
+    margin-left: 15px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+    .action-buttons a button {
+        width: 100%;
+        max-width: 200px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #fff;
+        color: #ff7e5f;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .action-buttons a button:hover {
+            background: #ff7e5f;
+            color: #fff;
+        }

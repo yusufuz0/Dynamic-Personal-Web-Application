@@ -1,0 +1,42 @@
+﻿@model DataAccesLayer.Entities.Datas
+
+
+    <form action="/ManagementPanel/DatasUpdate" method="post">
+        <div>
+            <label for="title">Title:</label>
+            <input id="title" asp-for="@Model.Title" type="text" />
+        </div>
+
+        <div>
+            <label for="about">About:</label>
+            <textarea id="about" asp-for="@Model.About"></textarea>
+        </div>
+
+        <div>
+            <label for="mobile">Mobile:</label>
+            <input id="mobile" asp-for="@Model.Mobile" type="text" />
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" asp-for="@Model.Email" type="email" />
+        </div>
+
+        <div>
+            <label for="address">Address:</label>
+            <input id="address" asp-for="@Model.Address" type="text" />
+        </div>
+
+        <div>
+            <label for="education">Education:</label>
+            <input id="education" asp-for="@Model.Education"></input>
+        </div>
+
+        <button type="submit">Update</button>
+    </form>
+
+    <div class="action-buttons">
+        <a href="/ManagementPanel/AddProject"><button>Add Project</button></a>
+        <a href="/managementpanel/AddSkill"><button>Add Skill</button></a>
+        
+    </div>

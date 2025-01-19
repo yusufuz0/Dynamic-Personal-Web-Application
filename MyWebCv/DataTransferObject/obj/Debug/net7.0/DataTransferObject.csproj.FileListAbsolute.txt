@@ -1,0 +1,15 @@
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\bin\Debug\net7.0\DataTransferObject.deps.json
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\bin\Debug\net7.0\DataTransferObject.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\bin\Debug\net7.0\DataTransferObject.pdb
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\bin\Debug\net7.0\DataAccesLayer.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\bin\Debug\net7.0\DataAccesLayer.pdb
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.csproj.AssemblyReference.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.AssemblyInfoInputs.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.AssemblyInfo.cs
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.csproj.CopyComplete
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\refint\DataTransferObject.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\DataTransferObject.pdb
+C:\Users\Huawei\source\repos\MyWebCv\DataTransferObject\obj\Debug\net7.0\ref\DataTransferObject.dll

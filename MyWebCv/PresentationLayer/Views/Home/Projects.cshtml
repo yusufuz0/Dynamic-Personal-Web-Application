@@ -1,0 +1,13 @@
+﻿@model List<DataAccesLayer.Entities.Projects>
+
+    <div class="projects">
+        <ul>
+            @{
+                foreach (var item in Model)
+                {
+                    <li>@item.Project</li>
+                }
+            }
+        </ul>
+    </div>
+

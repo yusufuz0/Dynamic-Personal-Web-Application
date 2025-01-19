@@ -1,0 +1,14 @@
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\bin\Debug\net7.0\DataAccesLayer.deps.json
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\bin\Debug\net7.0\DataAccesLayer.runtimeconfig.json
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\bin\Debug\net7.0\DataAccesLayer.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\bin\Debug\net7.0\DataAccesLayer.pdb
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.AssemblyInfo.cs
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\refint\DataAccesLayer.dll
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.pdb
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\DataAccesLayer.genruntimeconfig.cache
+C:\Users\Huawei\source\repos\MyWebCv\DataAccesLayer\obj\Debug\net7.0\ref\DataAccesLayer.dll

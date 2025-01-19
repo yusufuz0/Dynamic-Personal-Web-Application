@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf UZ - Junior Web Developer</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="/home/index">Home</a>
+                    </li>
+                    @{
+                        var firstNameClaim = Context.User.Claims.FirstOrDefault(f => f.Type == "FirstName");
+                        if (firstNameClaim != null && firstNameClaim.Value == "Yusuf")
+                        {
+                            <li>
+                                <a href="/ManagementPanel/DatasForm">Management Panel</a>
+                            </li>
+                        }
+                    }
+                    <li>
+                        <a href="/home/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/home/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/home/skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="/home/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/Comment/CommentWall">Comment Wall</a>
+                    </li>
+                    @{
+                        if (Context.User.Claims.FirstOrDefault(f => f.Type == "FirstName") != null)
+                        {
+
+                            <li>
+                                <a href="/session/logout">Log Out</a>
+                            </li>
+                            <p>Hoş Geldiniz @Context.User.Claims.FirstOrDefault(f => f.Type == "FirstName").Value</p>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="/session/login">Log In</a>
+                            </li>
+                            <li>
+                                <a href="/session/register">Sign Up</a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    @RenderBody()
+</body>
+</html>
+
